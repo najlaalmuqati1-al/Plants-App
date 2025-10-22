@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Plants_AppApp: App {
+    @StateObject var viewModel = PlantViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView(viewModel: viewModel)
         }
     }
 }

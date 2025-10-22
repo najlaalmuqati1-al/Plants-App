@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		11A4F0CE2EA5211D002A88F5 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4F0CD2EA5211D002A88F5 /* Plant.swift */; };
+		11A4F0D02EA52175002A88F5 /* PlantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4F0CF2EA52175002A88F5 /* PlantViewModel.swift */; };
+		11A4F0D22EA5228E002A88F5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4F0D12EA5228E002A88F5 /* StartView.swift */; };
+		11A4F0D42EA522D4002A88F5 /* SetReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4F0D32EA522D4002A88F5 /* SetReminderView.swift */; };
+		11A4F0D62EA522FE002A88F5 /* todayreminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4F0D52EA522FE002A88F5 /* todayreminderView.swift */; };
+		11A4F0D82EA52322002A88F5 /* alldoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4F0D72EA52322002A88F5 /* alldoneView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		11A4F0AE2EA4BEEA002A88F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,16 +36,42 @@
 		11A4F0A02EA4BEE9002A88F5 /* Plants App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plants App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A4F0AD2EA4BEEA002A88F5 /* Plants AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plants AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A4F0B72EA4BEEA002A88F5 /* Plants AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plants AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A4F0CD2EA5211D002A88F5 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		11A4F0CF2EA52175002A88F5 /* PlantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewModel.swift; sourceTree = "<group>"; };
+		11A4F0D12EA5228E002A88F5 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		11A4F0D32EA522D4002A88F5 /* SetReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetReminderView.swift; sourceTree = "<group>"; };
+		11A4F0D52EA522FE002A88F5 /* todayreminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayreminderView.swift; sourceTree = "<group>"; };
+		11A4F0D72EA52322002A88F5 /* alldoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alldoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		11A4F0A22EA4BEE9002A88F5 /* Plants App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Plants App";
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1120CD932EA54A130020A9EC /* Exceptions for "Plants AppTests" folder in "Plants App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Plants App/Assets.xcassets",
+				"Plants App/ContentView.swift",
+				"Plants App/Plants_AppApp.swift",
+			);
+			target = 11A4F09F2EA4BEE9002A88F5 /* Plants App */;
 		};
+		1120CD942EA54A130020A9EC /* Exceptions for "Plants AppTests" folder in "Plants AppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Plants App/Assets.xcassets",
+				"Plants App/ContentView.swift",
+				"Plants App/Plants_AppApp.swift",
+			);
+			target = 11A4F0AC2EA4BEEA002A88F5 /* Plants AppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		11A4F0B02EA4BEEA002A88F5 /* Plants AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1120CD932EA54A130020A9EC /* Exceptions for "Plants AppTests" folder in "Plants App" target */,
+				1120CD942EA54A130020A9EC /* Exceptions for "Plants AppTests" folder in "Plants AppTests" target */,
+			);
 			path = "Plants AppTests";
 			sourceTree = "<group>";
 		};
@@ -75,7 +110,9 @@
 		11A4F0972EA4BEE9002A88F5 = {
 			isa = PBXGroup;
 			children = (
-				11A4F0A22EA4BEE9002A88F5 /* Plants App */,
+				11A4F0CA2EA517C2002A88F5 /* Models */,
+				11A4F0CB2EA5183C002A88F5 /* ViewModels */,
+				11A4F0CC2EA51864002A88F5 /* Views */,
 				11A4F0B02EA4BEEA002A88F5 /* Plants AppTests */,
 				11A4F0BA2EA4BEEA002A88F5 /* Plants AppUITests */,
 				11A4F0A12EA4BEE9002A88F5 /* Products */,
@@ -92,6 +129,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		11A4F0CA2EA517C2002A88F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11A4F0CD2EA5211D002A88F5 /* Plant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11A4F0CB2EA5183C002A88F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				11A4F0CF2EA52175002A88F5 /* PlantViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11A4F0CC2EA51864002A88F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11A4F0D12EA5228E002A88F5 /* StartView.swift */,
+				11A4F0D32EA522D4002A88F5 /* SetReminderView.swift */,
+				11A4F0D52EA522FE002A88F5 /* todayreminderView.swift */,
+				11A4F0D72EA52322002A88F5 /* alldoneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +170,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				11A4F0A22EA4BEE9002A88F5 /* Plants App */,
 			);
 			name = "Plants App";
 			packageProductDependencies = (
@@ -236,6 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A4F0D42EA522D4002A88F5 /* SetReminderView.swift in Sources */,
+				11A4F0D22EA5228E002A88F5 /* StartView.swift in Sources */,
+				11A4F0D02EA52175002A88F5 /* PlantViewModel.swift in Sources */,
+				11A4F0D62EA522FE002A88F5 /* todayreminderView.swift in Sources */,
+				11A4F0CE2EA5211D002A88F5 /* Plant.swift in Sources */,
+				11A4F0D82EA52322002A88F5 /* alldoneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +462,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ7W629589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -407,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "najla.Plants-App";
+				PRODUCT_BUNDLE_IDENTIFIER = najlaPlantsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -426,6 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ7W629589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,7 +507,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "najla.Plants-App";
+				PRODUCT_BUNDLE_IDENTIFIER = najlaPlantsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
