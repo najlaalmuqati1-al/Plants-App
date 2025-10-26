@@ -16,3 +16,22 @@ struct Plants_AppApp: App {
         }
     }
 }
+import UserNotifications
+
+struct PlantApp: App {
+    init() {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+            if granted {
+                print("✅ Notifications allowed")
+            } else {
+                print("❌ Notifications denied")
+            }
+        }
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            StartView(viewModel: PlantViewModel())
+        }
+    }
+}

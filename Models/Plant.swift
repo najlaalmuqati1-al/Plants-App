@@ -14,5 +14,6 @@ struct Plant: Identifiable, Codable {
     var waterAmount: String
     var lightType: String
     var isWateredToday: Bool = false
+    
 }
 
