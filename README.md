@@ -11,3 +11,10 @@ Technologies
 - Combine  
 - UserNotifications Framework  
 by: Najla Almuqati Email:Najlaalmuqati1@gmail.com
+## Icon app 
+<img width="195" height="254" alt="Screenshot 1447-05-07 at 10 12 42 AM" src="https://github.com/user-attachments/assets/28cd7bae-dfd1-4dd7-a79f-621b31908b6d" />
+
+## App Secreenshot
+
+<img width="1096" height="1454" alt="image" src="https://github.com/user-attachments/assets/b5b96ecd-4acc-41ba-a5c9-438b290bece0" />
+
