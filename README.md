@@ -11,8 +11,8 @@ It helps users organize their plants and set watering reminders to keep them hea
 
 - SwiftUI  
 - Combine  
-- UserNotifications Framework  
-by: Najla Almuqati Email:Najlaalmuqati1@gmail.com
+- UserNotifications Framework
+- 
 ## Icon app 
 <img width="195" height="254" alt="Screenshot 1447-05-07 at 10 12 42 AM" src="https://github.com/user-attachments/assets/28cd7bae-dfd1-4dd7-a79f-621b31908b6d" />
 
